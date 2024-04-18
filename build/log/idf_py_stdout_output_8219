@@ -1,0 +1,54 @@
+-- Found Git: /usr/bin/git (found version "2.25.1") 
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/khoatn9/esp_5.2.1/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /home/khoatn9/esp_5.2.1/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /home/khoatn9/esp_5.2.1/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /home/khoatn9/esp_5.2.1/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-g++
+-- Check for working CXX compiler: /home/khoatn9/esp_5.2.1/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+Dependencies lock doesn't exist, solving dependencies.
+Using component placed at /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/examples/common_components/protocol_examples_common for dependency protocol_examples_common(*), specified in /home/khoatn9/esp_5.2.1/projects/tcp/main/idf_component.yml
+.Updating lock file at /home/khoatn9/esp_5.2.1/projects/tcp/dependencies.lock
+Processing 2 dependencies:
+[1/2] protocol_examples_common (*)
+[2/2] idf (5.2.1)
+-- Project sdkconfig file /home/khoatn9/esp_5.2.1/projects/tcp/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/khoatn9/esp_5.2.1/.espressif/python_env/idf5.2_py3.8_env/bin/python (found version "3.8.10") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "mqtt_tcp" version: 1
+-- Adding linker script /home/khoatn9/esp_5.2.1/projects/tcp/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocol_examples_common protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/app_trace /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/app_update /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/bootloader /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/bootloader_support /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/bt /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/cmock /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/console /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/cxx /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/driver /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/efuse /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp-tls /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_adc /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_app_format /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_bootloader_format /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_coex /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_common /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_eth /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_event /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_gdbstub /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_hid /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_http_client /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_http_server /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_https_ota /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_https_server /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_hw_support /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_lcd /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_local_ctrl /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_mm /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_netif /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_netif_stack /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_partition /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_phy /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_pm /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_psram /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_ringbuf /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_rom /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_system /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_timer /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esp_wifi /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/espcoredump /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/esptool_py /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/fatfs /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/freertos /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/hal /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/heap /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/http_parser /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/idf_test /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/ieee802154 /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/json /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/log /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/lwip /home/khoatn9/esp_5.2.1/projects/tcp/main /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/mbedtls /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/mqtt /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/newlib /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/nvs_flash /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/nvs_sec_provider /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/openthread /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/partition_table /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/perfmon /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/protobuf-c /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/examples/common_components/protocol_examples_common /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/protocomm /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/pthread /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/sdmmc /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/soc /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/spi_flash /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/spiffs /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/tcp_transport /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/ulp /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/unity /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/usb /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/vfs /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/wear_levelling /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/wifi_provisioning /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/wpa_supplicant /home/khoatn9/esp_5.2.1/v5.2.1/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/khoatn9/esp_5.2.1/projects/tcp/build
